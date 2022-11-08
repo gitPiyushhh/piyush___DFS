@@ -1,0 +1,12 @@
+1. Why DFS:
+    |
+    Coz here we need to move from root till leaf
+
+2. DS used: 
+    |
+    (a) Stack {in recurion}, index {for current keeping a track of curr ind}
+
+3. Variation:
+    |
+    👉 In every call, increase the index
+    👉 Breakinf condn is when we reach to the end of the array and the root also has no further nodes

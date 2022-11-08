@@ -1,0 +1,12 @@
+1. Why DFS:
+    |
+    Coz here we need to move from root till leaf
+
+2. DS used: 
+    |
+    (a) Stack {in recurion}, temp {for storing elems uptill now}
+
+3. Variation:
+    |
+    👉 Just remember in this we have to run the loop for temp arr in reverse direction coz maybe the elem just added is causing the problem
+    👉 We also need to maintain a global variable for ans

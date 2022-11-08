@@ -1,0 +1,11 @@
+1. Why DFS:
+    |
+    Coz here we need to move from root till leaf
+
+2. DS used: 
+    |
+    (a) Stack {in recurion}, target {for current target remain}
+
+3. Variation:
+    |
+    In every call, dont forget to reduce the current target

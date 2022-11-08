@@ -1,0 +1,11 @@
+1. Why DFS:
+    |
+    Coz here we need to move from root till leaf
+
+2. DS used: 
+    |
+    (a) Stack {in recurion}, pathSum {for current pathSum value}
+
+3. Variation:
+    |
+    In every call, pathSum = pathSum * 10 + root.val
