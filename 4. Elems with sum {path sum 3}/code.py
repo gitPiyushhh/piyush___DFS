@@ -9,6 +9,8 @@ def helper(root, temp, target):
     sm = 0
     
     for i in range(len(temp) - 1, -1, -1):
+        sm += temp[i]
+        
         if sm == target: 
             res += 1
     
