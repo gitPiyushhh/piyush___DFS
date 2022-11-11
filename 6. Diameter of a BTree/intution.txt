@@ -1,0 +1,11 @@
+1. Why DFS:
+    |
+    👉 Coz here we need to move from root till leaf and calc for both halfes {left part and right part}
+
+2. DS used: 
+    |
+    👉 Stack {in recurion}, nonlocal variable dia {for storing the diameter}
+
+3. Variation:
+    |
+    👉 The code is same as for calculating height {just we have to do 1 extra step of calc. diameter whenever we are ready with the left and right heights}

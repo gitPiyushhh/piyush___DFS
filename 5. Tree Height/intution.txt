@@ -1,0 +1,11 @@
+1. Why DFS:
+    |
+    👉 Coz here we need to move from root till leaf and calc for both half {left part and right part}
+
+2. DS used: 
+    |
+    👉 Stack {in recurion}
+
+3. Variation:
+    |
+    👉 Height is the nodes from root till the leaf {including the root}

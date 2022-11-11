@@ -1,0 +1,12 @@
+1. Why DFS:
+    |
+    👉 Coz here we need to move from root till leaf and check for both half {left part and right part}
+
+2. DS used: 
+    |
+    👉 Stack {in recurion}, ds {an array to store the path}
+
+3. Variation:
+    |
+    👉 There are 2 cndn of returning True and False {one in the retursive call step & one i the backtracking step}, remember those are important for maintaining the recursive call stack
+    👉 Backtracking step: If we cant find the right path till the leaf then we pop() and backtrack to the previous state{path}
